@@ -15,7 +15,7 @@ This portfolio showcases various projects I've worked on, reflecting my skills a
 If you're interested in further communication or have any questions, feel free to reach out:
 
 - Email: rayhanb18@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/rayhan-lingga-buana-5054b6259/)
-- [WhatsApp](https://wa.me/6289602878147)
+- LinkedIn: https://www.linkedin.com/in/rayhan-lingga-buana-5054b6259/
+- WhatsApp: https://wa.me/6289602878147
 
 Thank you for visiting!
