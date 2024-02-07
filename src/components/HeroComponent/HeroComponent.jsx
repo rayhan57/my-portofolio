@@ -20,7 +20,7 @@ const HeroComponent = () => {
         <div className="-mt-20 self-end md:mt-0 md:self-auto">
           <img
             src={profilePhoto}
-            className="w-72 lg:w-auto"
+            className="w-72 brightness-90 contrast-125 lg:w-auto"
             alt="profile-photo"
           />
         </div>
