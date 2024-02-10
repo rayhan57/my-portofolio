@@ -3,12 +3,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import animeList from "../../assets/img/myProjects/anime-list.png";
-import myMovies from "../../assets/img/myProjects/my-movies.png";
-import rayStore from "../../assets/img/myProjects/ray-store.png";
-import studentData from "../../assets/img/myProjects/student-data.png";
-import weatherApp from "../../assets/img/myProjects/weather-app.png";
-import weddingApp from "../../assets/img/myProjects/wedding-app.png";
+import animeList from "../../assets/img/myProjects/anime-list.webp";
+import myMovies from "../../assets/img/myProjects/my-movies.webp";
+import rayStore from "../../assets/img/myProjects/ray-store.webp";
+import studentData from "../../assets/img/myProjects/student-data.webp";
+import weatherApp from "../../assets/img/myProjects/weather-app.webp";
+import weddingApp from "../../assets/img/myProjects/wedding-app.webp";
 import ModalImage from "./ModalImage";
 
 const Projects = () => {

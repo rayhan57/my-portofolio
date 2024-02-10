@@ -1,8 +1,8 @@
 import React from "react";
-import accuracy from "../../assets/img/softSkill/accuracy.png";
-import problemSolving from "../../assets/img/softSkill/problem-solving.png";
-import teamWork from "../../assets/img/softSkill/teamwork.png";
-import timeManagement from "../../assets/img/softSkill/time-management.png";
+import accuracy from "../../assets/img/softSkill/accuracy.webp";
+import problemSolving from "../../assets/img/softSkill/problem-solving.webp";
+import teamWork from "../../assets/img/softSkill/teamwork.webp";
+import timeManagement from "../../assets/img/softSkill/time-management.webp";
 
 const SoftSkill = () => {
   return (

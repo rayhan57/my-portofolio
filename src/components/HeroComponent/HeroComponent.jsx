@@ -1,5 +1,5 @@
 import React from "react";
-import profilePhoto from "../../assets/img/profile-photo.png";
+import profilePhoto from "../../assets/img/profile-photo.webp";
 import SocialMedia from "./SocialMedia";
 import SoftSkill from "./SoftSkill";
 

@@ -1,9 +1,9 @@
 import React from "react";
-import javaScript from "../assets/img/mySkills/javascript-logo.png";
-import nextJs from "../assets/img/mySkills/nextjs-logo.png";
-import nodeJs from "../assets/img/mySkills/nodejs-logo.png";
-import react from "../assets/img/mySkills/react-logo.png";
-import redux from "../assets/img/mySkills/redux-logo.png";
+import javaScript from "../assets/img/mySkills/javascript-logo.webp";
+import nextJs from "../assets/img/mySkills/nextjs-logo.webp";
+import nodeJs from "../assets/img/mySkills/nodejs-logo.webp";
+import react from "../assets/img/mySkills/react-logo.webp";
+import redux from "../assets/img/mySkills/redux-logo.webp";
 
 const MySkills = () => {
   return (
