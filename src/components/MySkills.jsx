@@ -7,7 +7,7 @@ import redux from "../assets/img/mySkills/redux-logo.webp";
 
 const MySkills = () => {
   return (
-    <div className="container mt-7 lg:mt-14">
+    <div data-aos="fade-up" className="container mt-7 lg:mt-14">
       <h1 className="text-center text-xl font-semibold lg:text-2xl">
         M<span className="underline underline-offset-8">y Skill</span>s
       </h1>

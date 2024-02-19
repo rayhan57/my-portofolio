@@ -51,7 +51,7 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="container pt-10 md:pt-20">
+    <div data-aos="fade-up" id="projects" className="container pt-10 md:pt-20">
       <h1 className="text-center text-xl font-semibold lg:text-2xl">
         My Projects
       </h1>

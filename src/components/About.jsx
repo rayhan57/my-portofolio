@@ -7,7 +7,7 @@ const About = () => {
       id="about"
       className="container flex flex-col items-center justify-around pt-10 md:flex-row lg:pt-20"
     >
-      <div className="max-w-md space-y-4 lg:space-y-7">
+      <div data-aos="fade-up" className="max-w-md space-y-4 lg:space-y-7">
         <h1 className="text-xl font-semibold lg:text-2xl">
           <span className="underline underline-offset-8">About M</span>e
         </h1>
@@ -26,7 +26,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="hidden md:block">
+      <div data-aos="fade-up" data-aos-delay="200" className="hidden md:block">
         <img src={aboutImage} className="w-40 md:w-96" alt="about-me" />
       </div>
     </div>

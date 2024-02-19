@@ -5,37 +5,38 @@ import teamWork from "../../assets/img/softSkill/teamwork.webp";
 import timeManagement from "../../assets/img/softSkill/time-management.webp";
 
 const SoftSkill = () => {
+  const softSkill = [
+    {
+      image: teamWork,
+      title: "Team Work",
+    },
+    {
+      image: problemSolving,
+      title: "Problem Solving",
+    },
+    {
+      image: accuracy,
+      title: "Accuracy",
+    },
+    {
+      image: timeManagement,
+      title: "Time Management",
+    },
+  ];
+
   return (
     <div className="absolute bottom-0 left-0 w-full bg-primary py-2 text-sm font-medium lg:py-5 lg:text-lg">
       <div className="container flex items-center justify-around">
-        <div>
-          <img
-            src={teamWork}
-            className="mx-auto w-9 lg:w-12"
-            alt="time-management"
-          />
-          <h2>Team Work</h2>
-        </div>
-        <div>
-          <img
-            src={problemSolving}
-            className="mx-auto w-9 lg:w-12"
-            alt="problem-solving"
-          />
-          <h2>Problem Solving</h2>
-        </div>
-        <div>
-          <img src={accuracy} className="mx-auto w-9 lg:w-12" alt="accuracy" />
-          <h2>Accuracy</h2>
-        </div>
-        <div>
-          <img
-            src={timeManagement}
-            className="mx-auto w-9 lg:w-12"
-            alt="time-management"
-          />
-          <h2>Time Management</h2>
-        </div>
+        {softSkill.map((item, index) => (
+          <div data-aos="fade" key={index}>
+            <img
+              src={item.image}
+              className="mx-auto w-9 lg:w-12"
+              alt={item.title}
+            />
+            <h2>{item.title}</h2>
+          </div>
+        ))}
       </div>
     </div>
   );

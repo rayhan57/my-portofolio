@@ -7,7 +7,10 @@ const HeroComponent = () => {
   return (
     <div className="relative mt-7 lg:mt-14">
       <div className="container flex flex-col items-center justify-between md:flex-row">
-        <div className="space-y-2 self-start md:self-auto lg:space-y-5">
+        <div
+          data-aos="fade-right"
+          className="space-y-2 self-start md:self-auto lg:space-y-5"
+        >
           <h2 className="text-lg font-medium lg:text-3xl">Hey! This is</h2>
           <h1 className="text-2xl font-bold lg:text-5xl">
             Rayhan Lingga Buana
@@ -17,7 +20,10 @@ const HeroComponent = () => {
           <SocialMedia />
         </div>
 
-        <div className="-mt-20 self-end md:mt-0 md:self-auto">
+        <div
+          data-aos="fade-left"
+          className="-mt-20 self-end md:mt-0 md:self-auto"
+        >
           <img
             src={profilePhoto}
             className="w-72 brightness-90 contrast-125 lg:w-auto"

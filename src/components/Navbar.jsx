@@ -15,7 +15,10 @@ const Navbar = () => {
 
   return (
     <nav className="container">
-      <div className="mx-auto flex flex-wrap items-center justify-between py-4 text-sm md:mt-3 lg:text-base">
+      <div
+        data-aos={isMobile ? "" : "fade-down"}
+        className="mx-auto flex flex-wrap items-center justify-between py-4 text-sm md:mt-3 lg:text-base"
+      >
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
           <FaBarsStaggered size={20} />
         </button>

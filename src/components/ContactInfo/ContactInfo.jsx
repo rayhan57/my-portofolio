@@ -11,7 +11,7 @@ const ContactInfo = ({ formData, setFormData, handleSubmit, isDisabled }) => {
   };
 
   return (
-    <div className="container mt-10 lg:mt-20">
+    <div data-aos="fade-up" className="container mt-10 lg:mt-20">
       <div className="flex flex-col items-center justify-between gap-6 rounded-xl bg-primary py-4 pe-4 ps-4 md:flex-row md:ps-0 lg:gap-12 lg:py-8 lg:pe-8">
         {/* Contact Info */}
         <div className="flex-1 space-y-4 rounded-e-xl rounded-s-xl bg-white p-6 text-black md:rounded-s-none lg:p-12">

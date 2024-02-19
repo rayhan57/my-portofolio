@@ -26,7 +26,10 @@ const Footer = () => {
   ];
 
   return (
-    <div className="mt-24 flex items-center justify-center bg-primary p-5">
+    <div
+      data-aos="fade"
+      className="mt-24 flex items-center justify-center bg-primary p-5"
+    >
       <div>
         <h1 className="text-center lg:text-lg">Rayhan Lingga Buana</h1>
 
