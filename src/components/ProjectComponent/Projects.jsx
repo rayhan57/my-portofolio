@@ -9,6 +9,7 @@ import rayStore from "../../assets/img/myProjects/ray-store.webp";
 import studentData from "../../assets/img/myProjects/student-data.webp";
 import weatherApp from "../../assets/img/myProjects/weather-app.webp";
 import weddingApp from "../../assets/img/myProjects/wedding-app.webp";
+import varoCake from "../../assets/img/myProjects/varo-cake.webp";
 import ModalImage from "./ModalImage";
 
 const Projects = () => {
@@ -43,6 +44,10 @@ const Projects = () => {
       image: studentData,
       alt: "student-data",
     },
+    {
+      image: varoCake,
+      alt: "varo-cake",
+    },
   ];
 
   const handleImageClick = (image, alt) => {
@@ -51,7 +56,7 @@ const Projects = () => {
   };
 
   return (
-    <div data-aos="fade-up" id="projects" className="container pt-10 md:pt-20">
+    <div id="projects" className="container pt-10 md:pt-20">
       <h1 className="text-center text-xl font-semibold lg:text-2xl">
         My Projects
       </h1>
