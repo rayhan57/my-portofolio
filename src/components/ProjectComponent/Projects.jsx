@@ -10,6 +10,7 @@ import studentData from "../../assets/img/myProjects/student-data.webp";
 import weatherApp from "../../assets/img/myProjects/weather-app.webp";
 import weddingApp from "../../assets/img/myProjects/wedding-app.webp";
 import varoCake from "../../assets/img/myProjects/varo-cake.webp";
+import newsPortal from "../../assets/img/myProjects/news-portal.webp";
 import ModalImage from "./ModalImage";
 
 const Projects = () => {
@@ -47,6 +48,10 @@ const Projects = () => {
     {
       image: varoCake,
       alt: "varo-cake",
+    },
+    {
+      image: newsPortal,
+      alt: "news-portal",
     },
   ];
 
