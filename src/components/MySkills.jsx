@@ -1,7 +1,7 @@
 import React from "react";
 import javaScript from "../assets/img/mySkills/javascript-logo.webp";
 import nextJs from "../assets/img/mySkills/nextjs-logo.webp";
-import nodeJs from "../assets/img/mySkills/nodejs-logo.webp";
+import laravel from "../assets/img/mySkills/laravel-logo.webp";
 import react from "../assets/img/mySkills/react-logo.webp";
 import redux from "../assets/img/mySkills/redux-logo.webp";
 
@@ -17,7 +17,7 @@ const MySkills = () => {
         <img src={react} className="w-24 lg:w-32" alt="react" />
         <img src={redux} className="w-24 lg:w-32" alt="redux" />
         <img src={nextJs} className="w-24 lg:w-32" alt="nextjs" />
-        <img src={nodeJs} className="w-24 lg:w-32" alt="nodejs" />
+        <img src={laravel} className="w-24 lg:w-32" alt="laravel" />
       </div>
     </div>
   );
