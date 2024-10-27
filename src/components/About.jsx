@@ -17,12 +17,7 @@ const About = () => {
           alt="about-me"
         />
         <p className="text-sm font-light">
-          Hi, I'm Rayhan Lingga Buana, a 22 year old recent graduate with an
-          educational background in Informatics Engineering. Throughout my
-          studies, I've acquired knowledge of fundamental concepts and
-          technologies related to computers, software, and systems development.
-          I possess a strong desire to continue learning, growing, and achieving
-          meaningful accomplishments in the technology industry.
+          Hi, I am a Computer Science graduate with hands-on experience as a fullstack developer, working with Laravel for backend and React for frontend development. In this role, I've contributed to building functional and engaging web applications, managing both backend and user interface aspects. I am eager to continuously hone my skills and am ready to contribute to innovative technology projects.
         </p>
       </div>
 

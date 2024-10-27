@@ -15,7 +15,7 @@ const HeroComponent = () => {
           <h1 className="text-2xl font-bold lg:text-5xl">
             Rayhan Lingga Buana
           </h1>
-          <h3 className="lg:text-2xl">Frontend Developer</h3>
+          <h3 className="lg:text-2xl">Fullstack Developer</h3>
 
           <SocialMedia />
         </div>
